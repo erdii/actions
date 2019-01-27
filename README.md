@@ -1,3 +1,5 @@
-# actions
+# erdii/actions
 
-nothing to see here yet
+collection of more or less useful github actions
+
+* [rsync](./rsync)
