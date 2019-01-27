@@ -9,7 +9,7 @@ LABEL "com.github.actions.description"="Deploy files via rsync"
 LABEL "com.github.actions.icon"="server"
 LABEL "com.github.actions.color"="green"
 
-RUN apk add --no-cache rsync
+RUN apk add --no-cache openssh-client rsync
 
 ADD entrypoint.sh /entrypoint.sh
 
