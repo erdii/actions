@@ -13,4 +13,4 @@ RUN apk add --no-cache rsync
 
 ADD entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT [ "/entrypoint.sh" ]
+ENTRYPOINT ["/entrypoint.sh"]
