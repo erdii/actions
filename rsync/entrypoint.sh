@@ -16,4 +16,4 @@ chmod 600 "$SSH_PATH/deploy_key.pub"
 eval $(ssh-agent)
 ssh-add "$SSH_PATH/deploy_key"
 
-rsync -e 'ssh -o StrictHostKeyChecking=no' -r -v --delete-after "$IN_PATH" "$USER@$HOST:$OUT_PATH"
+rsync -e 'ssh -o StrictHostKeyChecking=no' -c -r -v --delete-after "$IN_PATH" "$USER@$HOST:$OUT_PATH"
