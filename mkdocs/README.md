@@ -1,6 +1,6 @@
 # mkdocs
 
-Use mkdocs to generate wonderful looking documentation websites
+Use mkdocs and mkdocs-material to generate wonderful looking documentation websites
 
 ### Information
 
